@@ -1,4 +1,21 @@
 Projeto acadêmico em Java e Sql baseado em um banco de dados fictício de catálogo de filmes e séries ;
 
-Nele o código em java se conecta ao banco do postgres , portanto para rodar em seu computador, é necessário alterar a senha no código que acessa o seu postgres local e é necessário
-criar tabelas definidas nos arquivos .sql no repositório (tabelas.sql) dentro do postgres antes de rodar o codigo java que se conecta com o banco. 
+É necessario ter Java JDK 17+ , Postgres SQL 
+
+Como configurar o Postgres:
+
+1-Crie o banco de dados PostgreSQL com o nome: "netflix"
+
+2-Execute o arquivo consultas.sql 
+
+3-Execute o arquivo instancias.sql (para popular os dados de teste)
+
+Como rodar :
+
+1-clona o repositório :git clone https://github.com/andretorquato443/Conexao-com-banco-de-dados.git
+cd Conexao-com-banco-de-dados
+2-altera em Conexoes.java os atributos usuario e senha para os valores de seu usuario e senha do seu postgres(para o programa em java se conectar ao seu postgres local)
+
+3-execute a classe principal : no terminal 
+
+
