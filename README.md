@@ -6,9 +6,11 @@ Como configurar o Postgres:
 
 1-Crie o banco de dados PostgreSQL com o nome: "netflix"
 
-2-Execute o arquivo consultas.sql 
+2-Execute tabelas.sql
 
 3-Execute o arquivo instancias.sql (para popular os dados de teste)
+
+3-Execute o arquivo consultas.sql 
 
 Como rodar :
 
